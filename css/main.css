@@ -14,39 +14,48 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-
 }
 
 .photo:first-child{
+  display:inline-block;
 
 }
 .photo:nth-child(2){
+  display:none;
 
 }
 .photo:nth-child(3){
+  display:inline-block;
 
 }
 .photo:nth-child(4){
+  display:inline-block;
 
 }
 .photo:last-child{
+  display:none;
 
 }
 
 @media only screen and (min-width: 25em) {
   .photo:first-child{
+  display:inline-block;
 
   }
   .photo:nth-child(2){
+  display:inline-block;
 
   }
   .photo:nth-child(3){
+  display:inline-block;
 
   }
   .photo:nth-child(4){
+  display:inline-block;
 
   }
   .photo:last-child{
+  display:inline-block;
 
   }
 
@@ -55,18 +64,23 @@ html {
 @media only screen and (min-width: 38em) {
 
   .photo:first-child{
+  display:inline-block;
 
   }
   .photo:nth-child(2){
+  display:inline-block;
 
   }
   .photo:nth-child(3){
+  display:inline-block;
 
   }
   .photo:nth-child(4){
+  display:inline-block;
 
   }
   .photo:last-child{
+  display:inline-block;
 
   }
 
@@ -75,19 +89,24 @@ html {
 @media only screen and (min-width: 60em) {
 
   .photo:first-child{
+  display:inline-block;
 
   }
   .photo:nth-child(2){
+  display:inline-block;
 
   }
   .photo:nth-child(3){
+  display:inline-block;
 
   }
   .photo:nth-child(4){
+  display:inline-block;
 
   }
   .photo:last-child{
+  display:inline-block;
 
   }
-  
+
 }
